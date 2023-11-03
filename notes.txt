@@ -1,0 +1,27 @@
+/* SOME OPTIONS */
+    .some-options{
+        grid-template-areas: 
+        '. secHeader secHeader secHeader .'
+        '. services . action .'
+        '. advantages . lastChild .'
+        '. learn-more . . .'
+        ;
+    }
+    .section-header{
+        grid-area: secHeader;
+    }
+    .service{
+        grid-area: services;
+    }
+    .advantages{
+        grid-area: advantages;
+    }
+    .action{
+        grid-area: action;
+    }
+    .last-child{
+        grid-area: lastChild;
+    }
+    .learn-more{
+        grid-area: learn-more;
+    }
